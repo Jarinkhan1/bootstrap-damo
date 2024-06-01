@@ -1,0 +1,59 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.box{
+	background-color: green;
+	height: 100vh;
+	font-size: 30px;
+	color: white;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.box{
+	background-color: yellow;
+	height: 100vh;
+	font-size: 30px;
+	color: white;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.box{
+	background-color: skyblue;
+	height: 100vh;
+	font-size: 50px;
+	color: white;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.box{
+	background-color: pink;
+	height: 100vh;
+	font-size: 100px;
+	color: white;
+    }
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.box{
+	background-color: magenta;
+	height: 100vh;
+	font-size: 120px;
+	color: white;
+    }
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	.box{
+	background-color: red;
+	height: 100vh;
+	font-size: 150px;
+	color: white;
+    }
+}
